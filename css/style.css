@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
+    height: 100%;
     padding: 0px;
     margin: 0px;
     background: #f6f6f6;
@@ -141,9 +142,15 @@ header .menu-toggle{
     display: none;
 }
 
+.page-wrapper {
+    min-height: 100%;
+}
+
 .page-wrapper a:hover{
     color: #006679;
 }
+
+
 
 /* Post Slider */
 
@@ -310,6 +317,11 @@ header .menu-toggle{
     color: #d3d3d3;
     height: 400px;
     position: relative;
+}
+
+.footer .footer-content{
+    visibility: hidden;
+    height: 350px;
 }
 
 .footer-bottom{
