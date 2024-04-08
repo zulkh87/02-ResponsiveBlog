@@ -329,7 +329,7 @@ header .menu-toggle{
 .content .sidebar{
     width: 30%;
     float: left;
-    height: 300px;
+    /* height: 300px; */
 }
 
 .content .sidebar.single{
@@ -497,6 +497,30 @@ header .menu-toggle{
 }
 
 /* Media Queries */
+
+@media only screen and (max-width: 1060px) {
+    .content {
+        width: 100%;
+    }
+
+    .content .main-content .post {
+        width: 100%;
+    }
+
+    .content .main-content {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .content .sidebar {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content .sidebar .section.search {
+        margin-top: 30px;
+    }
+}
 
 @media only screen and (max-width: 750px) {
     header{
