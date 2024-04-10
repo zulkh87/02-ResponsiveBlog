@@ -545,6 +545,10 @@ header .menu-toggle{
         position: relative;
     }
 
+    .main-content-wrapper{
+        padding: 10px;
+    }
+
     header ul {
         width: 100%;
         background: #0E94A0;
@@ -597,6 +601,10 @@ header .menu-toggle{
 @media only screen and (max-width:656px){
     .content .main-content .post {
         height: auto;
+    }
+
+    .content .main-content.single{
+        padding: 10px 20px;
     }
 
     .content .main-content .post-image {
