@@ -520,6 +520,24 @@ header .menu-toggle{
     .content .sidebar .section.search {
         margin-top: 30px;
     }
+
+    .footer{
+        /* Footer takes just enough height to keep its contents (height: auto) */
+        height: auto;
+    }
+
+    .footer .footer-content{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .footer .footer-content .contact-form{
+        padding-bottom: 90px;
+    }
+
+    .footer .footer-content .contact-form .contact-btn {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -573,5 +591,27 @@ header .menu-toggle{
 
     header .logo{
         margin-left: 0.8em;
+    }
+}
+
+@media only screen and (max-width:656px){
+    .content .main-content .post {
+        height: auto;
+
+    }
+
+    .content .main-content .post-image {
+        width: 100%;
+    }
+
+    .content .main-content .post .post-preview {
+        width: 100%;
+    }
+
+    .content .main-content .post .read-more {
+        position: static;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }
