@@ -503,6 +503,10 @@ header .menu-toggle{
         width: 100%;
     }
 
+    .auth-content {
+        width: 50%;
+    }
+
     .content .main-content .post {
         width: 100%;
     }
@@ -543,6 +547,10 @@ header .menu-toggle{
 @media only screen and (max-width: 770px) {
     header{
         position: relative;
+    }
+
+    .auth-content {
+        width: 60%;
     }
 
     .main-content-wrapper{
@@ -601,6 +609,10 @@ header .menu-toggle{
 @media only screen and (max-width:656px){
     .content .main-content .post {
         height: auto;
+    }
+
+    .auth-content{
+        width: 90%;
     }
 
     .content .main-content.single{
